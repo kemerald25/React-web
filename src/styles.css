@@ -1,0 +1,146 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
+body{
+    font-family: 'Montserrat';
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+}
+nav{
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.navbar{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.allPages{
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+.logo{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.nav-items{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+.link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.banner{
+    background-image: url(/public/img/land.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 1400px;
+    /* opacity: 50%; */
+}
+.bannerInfo{
+    padding-top: 200px;
+}
+.bannerInfo p{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.bannerInfo h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 60px;
+}
+.btn{
+    padding: 10px 15px;
+    font-size: 15px;
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.intro{
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: #fff;
+    font-style: normal !important;
+    margin: 10px 0 !important;
+}
+.about{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-info h3{
+    margin: 0;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.about-info h1{
+    color: #fff;
+    font-size: 35px;
+    margin: 0;
+    font-weight: 500;
+}
+.stroke{
+    background-color: #fff;
+    height: 5px;
+    width: 50px;
+    margin-top: 15px;
+}
+.about-img{
+    background-image: url(/public/img/land.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+}
+.about-info p{
+    color: #fff;
+    font-size: 15px;
+    width: 600px;
+}
+footer{
+    max-width: 1440px;
+    height: 70px;
+    background-color: darkgray;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+}
+
+footer .allPages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 600px;
+}
+footer .allPages a{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+}
+small{
+    font-size: 20px;
+}
