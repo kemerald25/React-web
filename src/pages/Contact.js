@@ -18,7 +18,8 @@ function Contact() {
                         ></iframe>
                     </div>
                     <div className="contact-frame">
-                        <form>
+                        <form action="https://formspree.io/f/mrgngzlr"
+                            method="POST">
                             <div className="name">
                                 <input type="text" name="firstname" id="firstname" placeholder="Firstname" required />
                                 <input type="text" name="lastname" id="lastname" placeholder="Lastname" required />
