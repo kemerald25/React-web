@@ -6,11 +6,12 @@ body{
     background-color: #000;
 }
 nav{
-    background-color: #000;
+    background-color: darkgray;
     position: fixed;
     width: 100%;
     margin: 0 auto;
     padding: 10px 0;
+    top: 0;
 }
 .navbar{
     display: flex;
@@ -26,7 +27,7 @@ nav{
 }
 .logo{
     font-size: 20px;
-    color: #fff;
+    color: #000;
     text-decoration: none;
 }
 .nav-items{
@@ -36,7 +37,7 @@ nav{
 }
 .link{
     text-decoration: none;
-    color: #fff;
+    color: #000;
     font-size: 20px;
 }
 .banner{
@@ -92,6 +93,16 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+.about-head{
+    margin-top: 100px;
+}
+.about-head h2{
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+}
 .about-info h3{
     margin: 0;
     font-size: 12px;
@@ -143,4 +154,39 @@ footer .allPages a{
 }
 small{
     font-size: 20px;
+}
+.services{
+    color: #fff;
+    margin-top: 150px;
+    text-align: center;
+}
+.stroke2{
+    max-width: 50px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    color: #fff;
+    border: 2px solid darkgray;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.card h3{
+    font-size: 25px;
+    margin: 0;
+}
+.card p{
+    margin: 0;
+    margin-top: 10px;
 }
