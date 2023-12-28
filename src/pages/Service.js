@@ -14,19 +14,19 @@ function Service() {
                 <div className="card">
                     <h3>Filming Services</h3>
                     <p>I can film your project wheter it is a commercial advertise, or a short
-                        film or a document film. I have expertise in these fields
+                        film or a document film. I have expertise in these fields.
                     </p>
                 </div>
                 <div className="card">
-                    <h3>Workshops and private tuition</h3>
-                    <p>I can film your project wheter it is a commercial advertise, or a short
-                        film or a document film. I have expertise in these fields
+                    <h3>Private tuition</h3>
+                    <p>I offer private titions for absolute beginners or mid-level producers
+                        who need more advice.
                     </p>
                 </div>
                 <div className="card">
-                    <h3>Filming Services</h3>
-                    <p>I can film your project wheter it is a commercial advertise, or a short
-                        film or a document film. I have expertise in these fields
+                    <h3>Equipment Hire</h3>
+                    <p>I have available equipmentsfor Hire which you can use for your own
+                        project.
                     </p>
                 </div>
             </div>

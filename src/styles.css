@@ -190,3 +190,34 @@ small{
     margin: 0;
     margin-top: 10px;
 }
+.all-contact{
+    margin-top: 150px;
+    color: #fff;
+}
+.name{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.name input{
+    width: 200px;
+    padding: 10px 10px;
+    outline: none;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.name input::placeholder{
+    padding-left: 5px;
+}
+textarea{
+    width: 394px;
+    outline: none;
+    height: 200px;
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+textarea::placeholder{
+    padding-left: 5px;
+}
