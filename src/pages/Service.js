@@ -1,4 +1,5 @@
-import React from "react"
+import React from "react";
+import Film from "./Films";
 
 function Service() {
     return (
@@ -30,6 +31,7 @@ function Service() {
                     </p>
                 </div>
             </div>
+            <Film />
         </div>
     )
 }

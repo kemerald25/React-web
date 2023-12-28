@@ -41,7 +41,7 @@ nav{
     font-size: 20px;
 }
 .banner{
-    background-image: url(/public/img/land.jpg);
+    background-image: url(/src/img/land.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -122,7 +122,7 @@ nav{
     margin-top: 15px;
 }
 .about-img{
-    background-image: url(/public/img/land.jpg);
+    background-image: url(/src/img/land.jpg);
     background-size: cover;
     height: 500px;
     width: 500px;
@@ -225,4 +225,24 @@ textarea::placeholder{
 .contact{
     display: flex;
     justify-content: space-between;
+}
+.allFilms{
+    color: #fff;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filmGrid{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 35px;
+}
+.cardImg{
+    width: 400px;
+    height: 200px;
+}
+.cardImg img{
+    width: 100%;
 }
