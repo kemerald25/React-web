@@ -1,0 +1,48 @@
+@media screen and (max-width: 1200px) {
+    .navbar{
+        display: flex;
+        max-width: 1000px !important;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .allPages{
+        max-width: 1000px !important;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .about-img{
+        background-image: url(/src/img/land.jpg);
+        background-size: cover;
+        height: 500px;
+        width: 400px !important;
+    }
+    .about-info p{
+        color: #fff;
+        font-size: 15px;
+        width: 500px !important;
+    }
+    .filmGrid{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        margin-bottom: 5px !important;
+    }
+    .map iframe{
+        width: 500px;
+    }
+    footer{
+        max-width: 1200px;
+        height: 70px;
+        background-color: darkgray;
+        margin-top: 70px;
+        display: flex;
+        align-items: center;
+    }
+    footer .allPages{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 400px !important;
+    }
+}
