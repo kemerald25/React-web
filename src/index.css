@@ -46,3 +46,147 @@
         gap: 400px !important;
     }
 }
+
+
+@media screen and (max-width: 1024px) {
+    .navbar{
+        display: flex;
+        max-width: 900px !important;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .allPages{
+        max-width: 900px !important;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .about-img{
+        background-image: url(/src/img/land.jpg);
+        background-size: cover;
+        height: 400px !important;
+        width: 300px !important;
+    }
+    .about-info h1{
+        color: #fff;
+        font-size: 25px !important;
+        margin: 0;
+        font-weight: 500;
+    }
+    .about-info p{
+        color: #fff;
+        font-size: 15px;
+        width: 500px !important;
+    }
+    .card{
+        width: 250px !important;
+        height: 300px;
+        text-align: center;
+        color: #fff;
+        border: 2px solid darkgray;
+        padding: 0px 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .filmGrid{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        margin-bottom: 0px !important;
+    }
+    .map iframe{
+        width: 400px;
+    }
+    footer{
+        max-width: 1024px;
+        height: 70px;
+        background-color: darkgray;
+        margin-top: 70px;
+        display: flex;
+        align-items: center;
+    }
+    footer .allPages{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 300px !important;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .navbar{
+        display: flex;
+        max-width: 700px !important;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .allPages{
+        max-width: 700px !important;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .about{
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .about-img{
+        background-image: url(/src/img/land.jpg);
+        background-size: cover;
+        height: 400px !important;
+        width: 100% !important;
+        margin-bottom: 30px;
+    }
+    .about-info h1{
+        color: #fff;
+        font-size: 25px !important;
+        margin: 0;
+        font-weight: 500;
+    }
+    .about-info p{
+        color: #fff;
+        font-size: 15px;
+        width: 100% !important;
+    }
+    .card{
+        width: 250px !important;
+        height: 300px;
+        text-align: center;
+        color: #fff;
+        border: 2px solid darkgray;
+        padding: 0px 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .filmGrid{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        margin-bottom: 0px !important;
+    }
+    .map iframe{
+        width: 300px;
+    }
+    footer{
+        max-width: 900px;
+        height: 70px;
+        background-color: darkgray;
+        margin-top: 70px;
+        display: flex;
+        align-items: center;
+    }
+    footer .allPages{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px !important;
+    }
+}
