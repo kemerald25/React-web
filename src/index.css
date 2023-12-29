@@ -189,4 +189,940 @@
         align-items: center;
         gap: 100px !important;
     }
+
+
+
+
+
+
+    .hamburger {
+        display: block !important;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-items {
+        position: fixed;
+        left: -100%;
+        top: 30px;
+        height: 100vh;
+        flex-direction: column;
+        gap: 2rem;
+        padding-bottom: 9rem;
+        padding-top: 2rem;
+        width: 30%;
+        text-align: center;
+        transition: 0.5s;
+        background-color: darkgray;
+    }
+
+    .nav-items.active {
+        left: 0;
+    }
+    .nav-items li{
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar{
+        display: flex;
+        max-width: 600px !important;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .allPages{
+        max-width: 600px !important;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .about{
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .about-img{
+        background-image: url(/src/img/land.jpg);
+        background-size: cover;
+        height: 400px !important;
+        width: 100% !important;
+        margin-bottom: 30px;
+    }
+    .about-info h1{
+        color: #fff;
+        font-size: 25px !important;
+        margin: 0;
+        font-weight: 500;
+    }
+    .about-info p{
+        color: #fff;
+        font-size: 15px;
+        width: 100% !important;
+    }
+    .cards{
+        flex-wrap: wrap;
+        align-items: center !important;
+    }
+    .card{
+        width: 250px !important;
+        height: 300px;
+        text-align: center;
+        color: #fff;
+        border: 2px solid darkgray;
+        padding: 0px 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .cardImg{
+        width: 400px;
+        height: 200px;
+        object-fit: cover;
+        margin: 20px 0;
+    }
+    .btn Link {
+        font-size: 12px !important;
+    }
+    .filmGrid{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        margin-bottom: 0px !important;
+        flex-direction: column;
+        align-items: center;
+    }
+    .map iframe{
+        width: 300px;
+    }
+    br{
+        display: none !important;
+    }
+    footer{
+        max-width: 768px;
+        height: 70px;
+        background-color: darkgray;
+        margin-top: 70px;
+        display: flex;
+        align-items: center;
+    }
+    .map{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .map iframe{
+        width: 100% !important;
+    }
+    textarea{
+        width: 100% !important;
+    }
+    .contact-frame{
+        width: 100%;
+    }
+    .contact{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .name{
+        width: auto !important;
+        gap: 10px;
+    }
+    .name input{
+        width: 50% !important;
+    }
+    footer .allPages{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px !important;
+    }
+    small{
+        font-size: 18px !important;
+    }
+    .allPages a{
+        font-size: 18px !important;
+    }
+    .allFilms{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .stroke{
+        display: none;
+    }
+
+
+    .hamburger {
+        display: block !important;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-items {
+        position: fixed;
+        left: -100%;
+        top: 30px;
+        height: 100vh;
+        flex-direction: column;
+        gap: 2rem;
+        padding-bottom: 9rem;
+        padding-top: 2rem;
+        width: 30%;
+        text-align: center;
+        transition: 0.5s;
+        background-color: darkgray;
+    }
+
+    .nav-items.active {
+        left: 0;
+    }
+    .nav-items li{
+        padding: 10px 0;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .navbar{
+        display: flex;
+        max-width: 500px !important;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .allPages{
+        max-width: 500px !important;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .about{
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .about-img{
+        background-image: url(/src/img/land.jpg);
+        background-size: cover;
+        height: 400px !important;
+        width: 100% !important;
+        margin-bottom: 30px;
+    }
+    .about-info h1{
+        color: #fff;
+        font-size: 25px !important;
+        margin: 0;
+        font-weight: 500;
+    }
+    .about-info p{
+        color: #fff;
+        font-size: 15px;
+        width: 100% !important;
+    }
+    .cards{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center !important;
+    }
+    .card{
+        width: 250px !important;
+        height: 300px;
+        text-align: center;
+        color: #fff;
+        border: 2px solid darkgray;
+        padding: 0px 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .cardImg{
+        width: 400px;
+        height: 200px;
+        object-fit: cover;
+        margin: 20px 0;
+    }
+    .btn Link {
+        font-size: 12px !important;
+    }
+    .filmGrid{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        margin-bottom: 0px !important;
+        flex-direction: column;
+        align-items: center;
+    }
+    .map iframe{
+        width: 300px;
+    }
+    br{
+        display: none !important;
+    }
+    footer{
+        max-width: 500px;
+        height: 70px;
+        background-color: darkgray;
+        margin-top: 70px;
+        display: flex;
+        align-items: center;
+    }
+    .map{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .map iframe{
+        width: 100% !important;
+    }
+    textarea{
+        width: 100% !important;
+    }
+    .contact-frame{
+        width: 100%;
+    }
+    .contact{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .name{
+        width: auto !important;
+        gap: 10px;
+    }
+    .name input{
+        width: 50% !important;
+    }
+    footer .allPages{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px !important;
+    }
+    small{
+        font-size: 18px !important;
+    }
+    .allPages a{
+        font-size: 18px !important;
+    }
+    .allFilms{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .stroke{
+        display: none;
+    }
+
+
+    .hamburger {
+        display: block !important;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-items {
+        position: fixed;
+        left: -100%;
+        top: 30px;
+        height: 100vh;
+        flex-direction: column;
+        gap: 2rem;
+        padding-bottom: 9rem;
+        padding-top: 2rem;
+        width: 30%;
+        text-align: center;
+        transition: 0.5s;
+        background-color: darkgray;
+    }
+
+    .nav-items.active {
+        left: 0;
+    }
+    .nav-items li{
+        padding: 10px 0;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .navbar{
+        display: flex;
+        max-width: 300px !important;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .allPages{
+        max-width: 300px !important;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .bannerInfo{
+        padding-top: 100px !important;
+    }
+    .bannerInfo h1{
+        font-size: 40px !important;
+        font-weight: 700;
+        margin: 0;
+        line-height: 40px !important;
+    }
+    .about{
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .about-img{
+        background-image: url(/src/img/land.jpg);
+        background-size: cover;
+        height: 400px !important;
+        width: 100% !important;
+        margin-bottom: 30px;
+    }
+    .about-info h1{
+        color: #fff;
+        font-size: 25px !important;
+        margin: 0;
+        font-weight: 500;
+    }
+    .about-info p{
+        color: #fff;
+        font-size: 15px;
+        width: 100% !important;
+    }
+    .cards{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center !important;
+    }
+    .card{
+        width: 250px !important;
+        height: 300px;
+        text-align: center;
+        color: #fff;
+        border: 2px solid darkgray;
+        padding: 0px 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .cardImg{
+        width: 100% !important;
+        height: 200px;
+        object-fit: cover;
+        margin: 10px 0;
+    }
+    .btn Link {
+        font-size: 12px !important;
+    }
+    .filmGrid{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        margin-bottom: 0px !important;
+        flex-direction: column;
+        align-items: center;
+    }
+    .map iframe{
+        width: 300px;
+    }
+    br{
+        display: none !important;
+    }
+    footer{
+        max-width: 425px;
+        height: 70px;
+        background-color: darkgray;
+        margin-top: 70px;
+        display: flex;
+        align-items: center;
+    }
+    .map{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .map iframe{
+        width: 100% !important;
+    }
+    textarea{
+        width: 100% !important;
+    }
+    .contact-frame{
+        width: 100%;
+    }
+    .contact{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .name{
+        width: auto !important;
+        gap: 10px;
+    }
+    .name input{
+        width: 50% !important;
+    }
+    footer .allPages{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px !important;
+    }
+    small{
+        font-size: 10px !important;
+    }
+    .allPages a{
+        font-size: 10px !important;
+    }
+    .allFilms{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .stroke{
+        display: none;
+    }
+
+
+    .hamburger {
+        display: block !important;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-items {
+        position: fixed;
+        left: -100%;
+        top: 30px;
+        height: 100vh;
+        flex-direction: column;
+        gap: 2rem;
+        padding-bottom: 9rem;
+        padding-top: 2rem;
+        width: 30%;
+        text-align: center;
+        transition: 0.5s;
+        background-color: darkgray;
+    }
+
+    .nav-items.active {
+        left: 0;
+    }
+    .nav-items li{
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .navbar{
+        display: flex;
+        max-width: 280px !important;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .allPages{
+        max-width: 280px !important;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .about{
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .about-img{
+        background-image: url(/src/img/land.jpg);
+        background-size: cover;
+        height: 400px !important;
+        width: 100% !important;
+        margin-bottom: 30px;
+    }
+    .about-info h1{
+        color: #fff;
+        font-size: 25px !important;
+        margin: 0;
+        font-weight: 500;
+    }
+    .about-info p{
+        color: #fff;
+        font-size: 15px;
+        width: 100% !important;
+    }
+    .cards{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center !important;
+    }
+    .card{
+        width: 250px !important;
+        height: 300px;
+        text-align: center;
+        color: #fff;
+        border: 2px solid darkgray;
+        padding: 0px 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .cardImg{
+        width: 100% !important;
+        height: 200px;
+        object-fit: cover;
+        margin: 10px 0;
+    }
+    .btn Link {
+        font-size: 12px !important;
+    }
+    .filmGrid{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        margin-bottom: 0px !important;
+        flex-direction: column;
+        align-items: center;
+    }
+    .map iframe{
+        width: 300px;
+    }
+    br{
+        display: none !important;
+    }
+    footer{
+        max-width: 320px;
+        height: 70px;
+        background-color: darkgray;
+        margin-top: 70px;
+        display: flex;
+        align-items: center;
+    }
+    .map{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .map iframe{
+        width: 100% !important;
+    }
+    textarea{
+        width: 100% !important;
+    }
+    .contact-frame{
+        width: 100%;
+    }
+    .contact{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .name{
+        width: auto !important;
+        gap: 10px;
+    }
+    .name input{
+        width: 50% !important;
+    }
+    footer .allPages{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px !important;
+    }
+    small{
+        font-size: 10px !important;
+    }
+    .allPages a{
+        font-size: 10px !important;
+    }
+    .allFilms{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .stroke{
+        display: none;
+    }
+
+
+    .hamburger {
+        display: block !important;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-items {
+        position: fixed;
+        left: -100%;
+        top: 30px;
+        height: 100vh;
+        flex-direction: column;
+        gap: 2rem;
+        padding-bottom: 9rem;
+        padding-top: 2rem;
+        width: 30%;
+        text-align: center;
+        transition: 0.5s;
+        background-color: darkgray;
+    }
+
+    .nav-items.active {
+        left: 0;
+    }
+    .nav-items li{
+        padding: 10px 0;
+    }
+}
+
+
+@media screen and (max-width: 280px) {
+    .banner{
+        height: auto !important;
+        padding-bottom: 20px;
+    }
+    .bannerInfo p{
+        font-size: 12px;
+    }
+    .navbar{
+        display: flex;
+        max-width: 200px !important;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .allPages{
+        max-width: 200px !important;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .about{
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .about-img{
+        background-image: url(/src/img/land.jpg);
+        background-size: cover;
+        height: 400px !important;
+        width: 100% !important;
+        margin-bottom: 30px;
+    }
+    .about-info h1{
+        color: #fff;
+        font-size: 25px !important;
+        margin: 0;
+        font-weight: 500;
+    }
+    .about-info p{
+        color: #fff;
+        font-size: 15px;
+        width: 100% !important;
+    }
+    .cards{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center !important;
+    }
+    .card{
+        width: 250px !important;
+        height: 300px;
+        text-align: center;
+        color: #fff;
+        border: 2px solid darkgray;
+        padding: 0px 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .cardImg{
+        width: 100% !important;
+        height: 200px;
+        object-fit: cover;
+        margin: 10px 0;
+    }
+    .btn Link {
+        font-size: 12px !important;
+    }
+    .filmGrid{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        margin-bottom: 0px !important;
+        flex-direction: column;
+        align-items: center;
+    }
+    .map iframe{
+        width: 300px;
+    }
+    br{
+        display: none !important;
+    }
+    footer{
+        max-width: 280px;
+        height: 70px;
+        background-color: darkgray;
+        margin-top: 70px;
+        display: flex;
+        align-items: center;
+    }
+    .map{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .map iframe{
+        width: 100% !important;
+    }
+    textarea{
+        width: 100% !important;
+    }
+    .contact-frame{
+        width: 100%;
+    }
+    .contact{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .name{
+        width: auto !important;
+        gap: 10px;
+    }
+    .name input{
+        width: 50% !important;
+    }
+    footer .allPages{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px !important;
+    }
+    small{
+        font-size: 10px !important;
+    }
+    .allPages a{
+        font-size: 10px !important;
+    }
+    .allFilms{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .stroke{
+        display: none;
+    }
+
+
+    .hamburger {
+        display: block !important;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-items {
+        position: fixed;
+        left: -100%;
+        top: 30px;
+        height: 100vh;
+        flex-direction: column;
+        gap: 2rem;
+        padding-bottom: 9rem;
+        padding-top: 2rem;
+        width: 30%;
+        text-align: center;
+        transition: 0.5s;
+        background-color: darkgray;
+    }
+
+    .nav-items.active {
+        left: 0;
+    }
+    .nav-items li{
+        padding: 10px 0;
+    }
 }
